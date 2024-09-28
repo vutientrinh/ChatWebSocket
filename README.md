@@ -5,7 +5,8 @@
 
   WebSocket is supported in most modern web browsers and for browsers that don’t support it, we have libraries that provide fallbacks to other techniques like comet and long-polling.
 # Feature: 
-  users can access to a local address to chatting
+  users can access to a local address to chatting.
+  
   User add name and login basically to chatting room and users can see the messages from others.
 
 # Image : 
