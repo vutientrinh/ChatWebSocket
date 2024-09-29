@@ -66,7 +66,7 @@ function onMessageReceived(payload){
         message.content = message.sender + ' left!';
     }
     else{
-        messageElement.classList.add('event-message');
+        messageElement.classList.add('chat-message');
         var avataElement = document.createElement('i');
         var avataText = document.createTextNode(message.sender[0]);
         avataElement.appendChild(avataText);
