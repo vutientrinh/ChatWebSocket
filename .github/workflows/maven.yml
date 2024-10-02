@@ -31,7 +31,7 @@ jobs:
         run: mvn clean install
 
       - name: Build & push Docker image
-        uses: mr-smithers-excellent/docker-build-push@v6
+        uses: mr-smithers-excellent/docker-build-push@v5
         with:
           image: vutientrinh0410/chatsocket
           tags: latest
