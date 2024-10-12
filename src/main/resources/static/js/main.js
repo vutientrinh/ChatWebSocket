@@ -67,11 +67,11 @@ function onMessageReceived(payload){
     }
     else{
         messageElement.classList.add('chat-message');
-        var avataElement = document.createElement('i');
-        var avataText = document.createTextNode(message.sender[0]);
-        avataElement.appendChild(avataText);
-        avataElement.style['background-color'] = getAvatarColor(message.sender);
-        messageElement.appendChild(avataElement);
+        var avatarElement = document.createElement('i');
+        var avatarText = document.createTextNode(message.sender[0]);
+        avatarElement.appendChild(avatarText);
+        avatarElement.style['background-color'] = getAvatarColor(message.sender);
+        messageElement.appendChild(avatarElement);
         var usernameElement = document.createElement('span');
         var usernameText = document.createTextNode(message.sender);
         usernameElement.appendChild(usernameText);
